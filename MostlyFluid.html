@@ -10,8 +10,12 @@
 <body>
 <style>
     .container{
+        display: flex;
+display: -webkit-flex;
+        flex-flow: row wrap;
         margin: 0;
         padding: 0;
+
     }
 
     .container div{
@@ -49,9 +53,8 @@
 
 
     @media (min-width: 500px) {
-        .c1{
-            padding: 20px;
-            font-size: 2em;
+        .c1 .c2 .c3 .c4 {
+            width: 50%;
         }
     }
 
